@@ -1,1 +1,1 @@
-function twoSum(nums, target) { /* your code here */ }
+def twoSum(nums, target): { /* your code here */ }
