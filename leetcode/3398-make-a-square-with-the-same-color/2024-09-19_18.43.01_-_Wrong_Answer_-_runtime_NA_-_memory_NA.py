@@ -1,0 +1,21 @@
+class Solution:
+    def canMakeSquare(self, grid: List[List[str]]) -> bool:
+        # for every 2x2 square, check if at least 3 whites
+
+        for row in range(len(grid)-1):
+            for col in range(len(grid)-1):
+                white = 0
+                if grid[row][col] == "W":
+                    white += 1
+                if grid[row+1][col] == "W":
+                    white += 1
+                if grid[row][col+1] == "W":
+                    white += 1
+                if grid[row+1][col+1] == "W":
+                    white += 1
+            
+            if white >= 3:
+                return True
+        return False
+
+        
