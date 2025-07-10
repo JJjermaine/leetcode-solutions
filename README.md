@@ -1,5 +1,7 @@
 # leetcode-solutions
 
+## Not yet public
+
 Send your latest LeetCode submission to your GitHub repository. It is run through my custom server on Google Cloud Run.
 
 You press the "Uploaded Latest Submission" button to upload your latest LeetCode submission to GitHub.
